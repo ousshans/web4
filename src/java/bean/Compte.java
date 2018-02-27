@@ -22,7 +22,7 @@ public class Compte implements Serializable {
     @Id
     private String id;
     private Double solde;
-    private int montants;
+    
 
     public Compte() {
     }
