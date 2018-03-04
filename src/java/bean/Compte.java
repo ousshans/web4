@@ -22,7 +22,6 @@ public class Compte implements Serializable {
     @Id
     private String id;
     private Double solde;
-    private String changement1;
 
     public Compte() {
     }
