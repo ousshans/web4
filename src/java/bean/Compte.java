@@ -23,7 +23,10 @@ public class Compte implements Serializable {
     private String id;
     private Double solde;
     private String changement2;
-    private String request1;
+    private String request1; 
+
+    
+
 
     public Compte() {
     }
