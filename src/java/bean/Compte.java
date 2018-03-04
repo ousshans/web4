@@ -22,7 +22,11 @@ public class Compte implements Serializable {
     @Id
     private String id;
     private Double solde;
+    private String changement2;
+    private String request1; 
+
     
+
 
     public Compte() {
     }
@@ -38,7 +42,6 @@ public class Compte implements Serializable {
     public void setSolde(Double solde) {
         this.solde = solde;
     }
-    
 
     public String getId() {
         return id;
@@ -72,5 +75,5 @@ public class Compte implements Serializable {
     public String toString() {
         return "bean.Compte[ id=" + id + " ]";
     }
-    
+
 }
